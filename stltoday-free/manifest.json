@@ -1,0 +1,10 @@
+{
+     "name": "Free STLToday.com",
+     "description": "Subverts the weak paywall in use on STLToday.com",
+     "version": "1",
+     "manifest_version": 2,
+     "content_scripts": [{
+         "js": ["stltodayfree.user.js"],
+         "matches": ["http://*.stltoday.com/*"]
+      }]
+}

@@ -1,0 +1,13 @@
+{
+     "name": "101ESPN Clean",
+     "description": "A way to clean up some (not all) of the insane amount of ads on 101ESPN.com / 101Sports.com to improve the reading experience.",
+     "icons": {"16": "icon16.png",
+               "48": "icon48.png",
+               "128": "icon128.png"},
+     "version": "1",
+     "manifest_version": 2,
+     "content_scripts": [{
+         "js": ["101espn.user.js"],
+         "matches": ["http://*.101sports.com/*"]
+      }]
+}
